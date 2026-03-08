@@ -1,0 +1,22 @@
+:root {
+  --el-color-primary: #409eff;
+  --bg-color: #f5f7fa;
+  --panel-bg: #ffffff;
+  --text-primary: #303133;
+  --text-regular: #606266;
+  --text-secondary: #909399;
+  --border-color: #e4e7ed;
+  
+  --shadow-base: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+html.dark {
+  --bg-color: #141414;
+  --panel-bg: #1d1e1f;
+  --text-primary: #e5eaf3;
+  --text-regular: #cfd3dc;
+  --text-secondary: #a3a6ad;
+  --border-color: #363637;
+  
+  --shadow-base: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
