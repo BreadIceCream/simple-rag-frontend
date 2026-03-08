@@ -19,7 +19,7 @@
 
 ## ✨ 核心特性
 
-<video src="https://github.com/BreadIceCream/simple-rag/assets/SimpleRAG.mp4" controls width="100%"></video>
+<video src="https://github.com/BreadIceCream/simple-rag-frontend/raw/main/assets/SimpleRAG.mp4" controls width="100%"></video>
 
 1. **智能问答 (Chat)**：
 
