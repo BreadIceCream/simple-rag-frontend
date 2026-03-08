@@ -19,7 +19,8 @@
 
 ## ✨ 核心特性
 
-<video src="https://github.com/BreadIceCream/simple-rag-frontend/raw/main/assets/SimpleRAG.mp4" controls width="100%"></video>
+https://github.com/user-attachments/assets/cf8bc6c0-65ec-4bd2-bf7a-29f860178812
+
 
 1. **智能问答 (Chat)**：
    - 全异步**流式输出 (Server-Sent Events)** 界面，响应迅速。
