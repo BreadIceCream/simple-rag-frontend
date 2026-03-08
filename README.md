@@ -1,6 +1,6 @@
 # Simple RAG Web
 
-基于 **Vue 3** + **Vite** + **TypeScript** 构建的现代化轻量级企业知识库与 RAG（检索增强生成）问答系统前端模块。本项目是对接简单 RAG 后端的官方配套图形化用户界面，提供直观的对话交互以及文档切片管理体验。
+基于 **Vue 3** + **Vite** + **TypeScript** 构建的现代化轻量级企业知识库与 RAG（检索增强生成）问答系统前端模块。本项目是对接Simple RAG 后端的官方配套图形化用户界面，提供直观的对话交互以及文档切片管理体验。
 
 [后端项目](https://github.com/BreadIceCream/simple-rag)
 
