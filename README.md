@@ -22,12 +22,11 @@
 <video src="https://github.com/BreadIceCream/simple-rag-frontend/raw/main/assets/SimpleRAG.mp4" controls width="100%"></video>
 
 1. **智能问答 (Chat)**：
-
    - 全异步**流式输出 (Server-Sent Events)** 界面，响应迅速。
    - 自动化的聊天**内容格式解析** (无序/有序列表、表格、链接、代码高亮自适应渲染)。
    - **参考资料溯源抽屉**：回答附带引用的资料，点击即可在侧边抽屉查阅具体来自哪些碎片的索引和原文。
    - **白名单配置范围**：对话框前可限定或筛选 RAG 读取的文档参考库白名单，避免无关干扰。
-
+   
 2. **文档知识库管理 (Document Management)**：
 
    - 展现已处理成功的全站参考资产列表。
