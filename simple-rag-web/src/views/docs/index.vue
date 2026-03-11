@@ -11,7 +11,7 @@
 
         <el-table :data="docList" v-loading="loading" style="width: 100%" class="glass-panel"
             height="calc(100vh - 120px)" @row-dblclick="handleRowDblclick">
-            <el-table-column prop="file_name" label="文件名" min-width="100">
+            <el-table-column prop="file_name" label="文件名/网页标题" min-width="120">
                 <template #default="scope">
                     <span>{{ scope.row.file_name || scope.row.path }}</span>
                 </template>
@@ -21,14 +21,14 @@
                     <span>{{ scope.row.path }}</span>
                 </template>
             </el-table-column>
-            <el-table-column prop="file_extension" label="类型" width="100">
+            <el-table-column prop="file_extension" label="类型" width="80">
                 <template #default="scope">
                     <el-tag :type="scope.row.is_url ? 'success' : 'info'">
                         {{ scope.row.is_url ? 'URL' : scope.row.file_extension }}
                     </el-tag>
                 </template>
             </el-table-column>
-            <el-table-column prop="last_modified" label="更新时间" width="180">
+            <el-table-column prop="last_modified" label="更新时间" width="150">
                 <template #default="scope">
                     {{ formatDate(scope.row.last_modified) }}
                 </template>
@@ -112,6 +112,8 @@
                     <el-descriptions-item label="类型">{{ docDetails.is_url ? 'URL' : '本地文件' }}</el-descriptions-item>
                     <el-descriptions-item label="路径">{{ docDetails.path }}</el-descriptions-item>
                     <el-descriptions-item label="文件名" v-if="!docDetails.is_url">{{ docDetails.file_name
+                        }}</el-descriptions-item>
+                    <el-descriptions-item label="网页标题" v-else-if="docDetails.is_url">{{ docDetails.file_name
                         }}</el-descriptions-item>
                     <el-descriptions-item label="文件所在目录" v-if="!docDetails.is_url">{{ docDetails.file_directory
                         }}</el-descriptions-item>
